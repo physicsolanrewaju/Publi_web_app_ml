@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open('.trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 
 # creating a funtion
@@ -70,6 +70,7 @@ if __name__ == "__main__":
   
   
   
+
 
 
 
